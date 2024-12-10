@@ -1,0 +1,159 @@
+body{
+    background-color: #238321a2;
+  
+  }
+  
+  h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    justify-content: center;
+    color: #295b76;
+  }
+  
+  .imagens{
+    padding-bottom: 70px;
+    border-radius: 5px;
+    padding-block: 30px;
+  }
+  
+  
+  
+  div{
+    background-color:white;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+  }
+  
+  .cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+  }
+  
+  .sites{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e78354;
+    ul{
+      list-style-type: none;
+  background-color: #e78354;
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  }
+  
+  
+  li{
+  float: left;
+  border-right: 1px solid white;
+  }
+  
+  li a {
+  display: block;
+  color: aliceblue;
+  text-align: center;
+  padding: 10px 200px;
+  text-decoration: none;
+  }
+  
+  
+  li :hover{
+  background-color: rgb(240, 88, 62);
+  }
+  }
+  
+  
+  
+  .rodape{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 7px;
+    background-color: #e78354;
+  }
+  
+  
+  
+  
+  .cabecalho>h1{
+    margin-top: 30px;
+  }
+  
+  .conteudo{
+    display: flex;
+    justify-content: end;
+    input[type=text]   {
+      width: 100%;
+      padding: 15px 40px;
+      margin: 8px 2;
+      box-sizing: border-box;
+    }
+    input[type=number]   {
+      width: 100%;
+      padding: 15px 40px;
+      margin: 8px 2;
+      box-sizing: border-box;
+    }
+    
+    input[type=date]   {
+      width: 100%;
+      padding: 20px 40px;
+      margin: 8px 2;
+      box-sizing: border-box;
+    }
+
+    input[type=email]   {
+      width: 100%;
+      padding: 15px 40px;
+      margin: 8px 2;
+      box-sizing: border-box;
+    }
+  }
+
+  .formulario{
+    display: flex;
+    justify-content: end;
+    text-align: left;
+
+  }
+  
+  .rodape>img{
+    width: 200px;
+    margin: 5px;
+    width: 2%;
+  }
+  
+  h3{
+    background-color:#e7835472 ;
+  }
+  
+  
+  h2{ color: blue;}
+  
+
+  
+
+
+td{
+  border: 1px solid #dddddd;
+  text-align: center;
+  height: 400px;
+  width: 1200px;
+}
+
+th{
+  background-color:#e78354 ;
+}
+
+@media screen and  (min-width: 1370px) {
+  .section {
+      height: 450px;
+  }
+
+  .text {
+      height: 450px; 
+  }
+}
+
+  
